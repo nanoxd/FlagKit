@@ -10,25 +10,25 @@ import Foundation
 
 public class FlagKit {
   public enum SpecialFlag: String {
-    case World = "WW"
-    case EuropeanUnion = "EU"
-    case NorthAmerica = "WW-NAM"
-    case SouthAmerica = "WW-SAM"
-    case Europe = "WW-EUR"
-    case Africa = "WW-AFR"
-    case Asia = "WW-ASI"
-    case Oceania = "WW-AUS"
-    case California = "US-CA"
-    case Skåne = "SE-SKA"
-    case England = "GB-ENG"
-    case Scotland = "GB-SCT"
-    case Wales = "GB-WLS"
-    case Pride = "LGBT"
+    case world = "WW"
+    case europeanUnion = "EU"
+    case northAmerica = "WW-NAM"
+    case southAmerica = "WW-SAM"
+    case europe = "WW-EUR"
+    case africa = "WW-AFR"
+    case asia = "WW-ASI"
+    case oceania = "WW-AUS"
+    case california = "US-CA"
+    case skåne = "SE-SKA"
+    case england = "GB-ENG"
+    case scotland = "GB-SCT"
+    case wales = "GB-WLS"
+    case pride = "LGBT"
   }
 
-  public class var assetBundle: NSBundle {
+  public class var assetBundle: Bundle {
     get {
-      return NSBundle(forClass: FlagKit.self)
+      return Bundle(for: FlagKit.self)
     }
   }
 }
