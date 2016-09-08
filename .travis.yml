@@ -3,7 +3,7 @@ osx_image: xcode8
 
 env:
   - "DESTINATION='platform=iOS Simulator,name=iPhone 7' ACTION=build"
-  - "DESTINATION='platform=maxOS' ACTION=build"
+  - "DESTINATION='platform=macOS' ACTION=build"
   - "DESTINATION='platform=tvOS Simulator,name=Apple TV 1080p' ACTION=build"
 
 script:
